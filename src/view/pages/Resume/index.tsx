@@ -64,7 +64,7 @@ export const Resume: React.FC = () => {
                     <div className={'grid grid-cols-5 gap-4'}>
                         {data.fifth.data.map((x, index) => {
                             return (
-                                <div className={'bg-gray-300 w-max rounded px-2'} key={index}>
+                                <div className={'w-max rounded bg-gray-300 px-2'} key={index}>
                                     {x}
                                 </div>
                             );

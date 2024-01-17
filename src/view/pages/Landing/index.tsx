@@ -6,7 +6,7 @@ export const Landing: React.FC = () => {
         <div className={'content-center'}>
             <iframe className="aspect-video w-full" src="https://www.youtube.com/embed/sDh_kFP-ppk"></iframe>
             <Link className={'mt-5 flex justify-center'} to={'/resume'}>
-                <button className={'bg-blue-400 rounded-full px-10 py-4 text-xl'}>Резюме</button>
+                <button className={'rounded-full bg-blue-400 px-10 py-4 text-xl'}>Резюме</button>
             </Link>
         </div>
     );
