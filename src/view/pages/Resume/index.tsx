@@ -20,7 +20,14 @@ export const Resume: React.FC = () => {
                     right={
                         <div>
                             <div className={'text-2xl font-bold'}>{data.name}</div>
-                            <div className={'whitespace-pre-wrap'}>{data.aboutMe}</div>
+                            <div className={'whitespace-pre-wrap'}>
+                                {data.aboutMe.text}
+                                <br />
+                                <a href={`tel:${data.aboutMe.phone}`}>{data.aboutMe.phone}</a>
+                                <br />
+                                <a href={`mailto:${data.aboutMe.email}`}>{data.aboutMe.email}</a>
+                                <br />— предпочитаемый способ связи
+                            </div>
                         </div>
                     }
                 />
